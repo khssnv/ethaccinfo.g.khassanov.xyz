@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+http = "0.2.8"
+hyper = { version = "0.14.20", features = ["client", "server", "http1", "http2", "runtime"] }
+hyper-tls = "0.5.0"
+lazy_static = "1.4.0"
+tokio = { version = "1.20.0", features = ["net", "macros", "rt-multi-thread"] }
+url = "2.2.2"
