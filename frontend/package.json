@@ -5,6 +5,7 @@
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
+    "start": "nuxi start",
     "lint": "eslint --ext .js,.ts,.cjs,.cts,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext .js,.ts,.cjs,.cts,.vue --ignore-path .gitignore ."
   },
