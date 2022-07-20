@@ -11,4 +11,9 @@ export default defineNuxtConfig({
   vite: {
     plugins: [eslintPlugin()],
   },
+  runtimeConfig: {
+    public: {
+      apiBase: "https://backend.ethaccinfo.g.khassanov.xyz",
+    },
+  },
 });
