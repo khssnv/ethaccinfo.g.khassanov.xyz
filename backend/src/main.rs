@@ -16,7 +16,7 @@ lazy_static! {
 
 #[tokio::main]
 async fn main() {
-    let addr = SocketAddr::from(([127, 0, 0, 1], 8100));
+    let addr = SocketAddr::from(([0, 0, 0, 0], 8100));
 
     let https = HttpsConnector::new();
     let client = Client::builder().build::<_, Body>(https);
